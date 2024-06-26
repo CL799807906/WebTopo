@@ -64,15 +64,15 @@
 4. 注册控件（在TopoBase.vue中）
 
 ## 构建命令参考
-npm install --registry=https://registry.npmmirror.com
+
 ```
-### Compiles and hot-reloads for development
+### npm install --registry=https://registry.npmmirror.com
 ```
-npm run dev
+
 ```
-### Compiles and minifies for production
+ ### npm run dev
 ```
-npm run build
+ ### npm run build
 ```
 
 ## 运行截图
