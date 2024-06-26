@@ -57,17 +57,11 @@
 | -- | 属性修改 | 完成 | 完成|
 | lock | 选择 | 完成 | 完成|
 
-## 存在问题
-1. 目前的属性面板的鼠标编辑是硬编码的，这样初期拓展简单但是维护麻烦，更好的方法是每个属性定义完整的属性元数据，属性面板根据每个属性的元数据动态生成编辑，并支持属性分组
-
 ## 如何拓展控件
 1. 定义数据文件（参见 \src\components\topo\data-toolbox下的json文件）
 2. 新增控件，根据数据文件的数据自己实现显示方式（在\src\components\topo\control下新增控件，继承组件，可参考其他组件实现方式，整个思想就是利用第一步的数据绘制dom节点或canvas图像）
 3. 注册控件到工具栏（在TopoToolbox.vue中）
 4. 注册控件（在TopoBase.vue中）
-
-
-
 
 ## 构建命令参考
 npm install --registry=https://registry.npmmirror.com
