@@ -66,13 +66,13 @@
 ## 构建命令参考
 
 ```
-### npm install --registry=https://registry.npmmirror.com
+npm install --registry=https://registry.npmmirror.com
 ```
 
 ```
- ### npm run dev
+ npm run dev
 ```
- ### npm run build
+ npm run build
 ```
 
 ## 运行截图
